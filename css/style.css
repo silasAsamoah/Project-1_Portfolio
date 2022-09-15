@@ -1,0 +1,1528 @@
+/*=====FONTS======*/
+/*online*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*local*/
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.svg#BarlowCondensed-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.svg#BarlowCondensed-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.svg#BarlowCondensed-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.svg#BarlowCondensed-ExtraLightItalic") format("svg");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.svg#BarlowCondensed-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.svg#BarlowCondensed-SemiBoldItalic") format("svg");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.svg#BarlowCondensed-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.svg#BarlowCondensed-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.svg#BarlowCondensed-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.svg#BarlowCondensed-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.svg#BarlowCondensed-ExtraBoldItalic") format("svg");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.svg#BarlowCondensed-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.svg#BarlowCondensed-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.svg#BarlowCondensed-ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.svg#BarlowCondensed-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.svg#BarlowCondensed-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.svg#BarlowCondensed-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.svg#BarlowCondensed-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Yanone Kaffeesatz";
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.eot");
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.woff2") format("woff2"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.woff") format("woff"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.ttf") format("truetype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.svg#YanoneKaffeesatz-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Yanone Kaffeesatz";
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.eot");
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.woff2") format("woff2"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.woff") format("woff"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.ttf") format("truetype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.svg#YanoneKaffeesatz-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Yanone Kaffeesatz";
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.eot");
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.woff2") format("woff2"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.woff") format("woff"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.ttf") format("truetype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.svg#YanoneKaffeesatz-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Yanone Kaffeesatz";
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.eot");
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.woff2") format("woff2"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.woff") format("woff"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.ttf") format("truetype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.svg#YanoneKaffeesatz-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Yanone Kaffeesatz";
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.eot");
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.woff2") format("woff2"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.woff") format("woff"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.ttf") format("truetype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.svg#YanoneKaffeesatz-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Yanone Kaffeesatz";
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.eot");
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.woff2") format("woff2"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.woff") format("woff"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.ttf") format("truetype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.svg#YanoneKaffeesatz-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/*==================*/
+/*=====================*/
+/*variables, mixins, media queries, functions and all*/
+/* VARIABLES */
+/*======== margin bottom =====*/
+/* MIXINS */
+@-webkit-keyframes wobble_x {
+  16.65% {
+    transform: translateX(6px);
+  }
+  33.3% {
+    transform: translateX(-5px);
+  }
+  49.95% {
+    transform: translateX(4px);
+  }
+  66.6% {
+    transform: translateX(-2px);
+  }
+  83.25% {
+    transform: translateX(1px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes wobble_x {
+  16.65% {
+    transform: translateX(6px);
+  }
+  33.3% {
+    transform: translateX(-5px);
+  }
+  49.95% {
+    transform: translateX(4px);
+  }
+  66.6% {
+    transform: translateX(-2px);
+  }
+  83.25% {
+    transform: translateX(1px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes wobble_y {
+  16.65% {
+    transform: translateY(8px);
+  }
+  33.3% {
+    transform: translateY(-6px);
+  }
+  49.95% {
+    transform: translateY(4px);
+  }
+  66.6% {
+    transform: translateY(-2px);
+  }
+  83.25% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes wobble_y {
+  16.65% {
+    transform: translateY(8px);
+  }
+  33.3% {
+    transform: translateY(-6px);
+  }
+  49.95% {
+    transform: translateY(4px);
+  }
+  66.6% {
+    transform: translateY(-2px);
+  }
+  83.25% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .nav__menu {
+    padding: 2rem 0.25rem 4rem;
+  }
+  .nav__list {
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
+  .home__content {
+    grid-template-columns: 0.25fr 3fr;
+  }
+  .home__blob {
+    width: 180px;
+  }
+  .skill__title {
+    font-size: 0.938rem;
+  }
+  .qctn {
+    gap: 0.5rem;
+  }
+  .services__container {
+    grid-template-columns: -webkit-max-content !important;
+    grid-template-columns: max-content !important;
+    justify-content: center !important;
+  }
+  .services__content {
+    padding-right: 3.5rem;
+  }
+  .services__modal {
+    padding: 0 0.5rem;
+  }
+  .project__img {
+    width: 200px;
+  }
+  .testimonial__data,
+.testimonial__header {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .testimonial__img {
+    margin-right: 0;
+    margin-bottom: 0.25rem;
+  }
+  .testimonial__data,
+.testimonial__description {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 568px) {
+  .home__content {
+    grid-template-columns: -webkit-max-content 1fr 1fr !important;
+    grid-template-columns: max-content 1fr 1fr !important;
+  }
+  .home__data {
+    grid-column: initial !important;
+  }
+  .home__img {
+    order: 1 !important;
+    justify-self: center !important;
+  }
+  .about__container,
+.skills__container,
+.portfolio__content,
+.project__container,
+.contact__container,
+.footer__container {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .qctn__section {
+    display: grid !important;
+    grid-template-columns: 0.6fr !important;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  body {
+    margin: 0 !important;
+  }
+  .section {
+    padding: 6rem 0 2rem !important;
+  }
+  .section__subtitle {
+    margin-bottom: 4rem !important;
+  }
+  .header {
+    top: 0;
+    bottom: initial !important;
+  }
+  .header,
+.main,
+.footer__container {
+    padding: 0 1rem !important;
+  }
+  .nav {
+    height: calc(3rem + 1.5rem) !important;
+    -moz-column-gap: 1rem !important;
+         column-gap: 1rem !important;
+  }
+  .nav__icon,
+.nav__close,
+.nav__toggle {
+    display: none !important;
+  }
+  .nav__list {
+    display: flex !important;
+    -moz-column-gap: 2rem !important;
+         column-gap: 2rem !important;
+  }
+  .nav__menu {
+    margin-left: auto !important;
+  }
+  .change__theme {
+    margin: 0 !important;
+  }
+  .home__container {
+    row-gap: 5rem !important;
+  }
+  .home__content {
+    padding-top: 5.5rem !important;
+    -moz-column-gap: 2rem !important;
+         column-gap: 2rem !important;
+  }
+  .home__blob {
+    width: 270px !important;
+  }
+  .home__scroll {
+    display: block !important;
+  }
+  .home__scroll-btn {
+    margin-left: 3rem !important;
+  }
+  .about__container {
+    -moz-column-gap: 5rem !important;
+         column-gap: 5rem !important;
+  }
+  .about__img {
+    width: 350px !important;
+  }
+  .about__description {
+    text-align: initial !important;
+  }
+  .about__btn {
+    justify-content: initial !important;
+  }
+  .qctn__tabs {
+    justify-content: center !important;
+  }
+  .qctn__btn {
+    margin: 0 1rem !important;
+  }
+  .qctn__section {
+    grid-template-columns: 0.5fr !important;
+  }
+  .services__container {
+    grid-template-columns: repeat(3, 218px) !important;
+    justify-content: center !important;
+  }
+  .services__icon {
+    font-size: 2rem !important;
+  }
+  .services__content {
+    padding: 6rem 0 2rem 2.5rem !important;
+  }
+  .services__modal-content {
+    width: 450px !important;
+  }
+  .portfolio__img {
+    width: 320px !important;
+  }
+  .portfolio__content {
+    align-items: center !important;
+  }
+  .project {
+    text-align: initial !important;
+  }
+  .project__bg {
+    background: none !important;
+  }
+  .project__container {
+    background-color: hsl(250deg, 69%, 61%);
+    border-radius: 1rem;
+    padding: 3rem 2.5rem 0 !important;
+    grid-template-columns: 1fr -webkit-max-content;
+    grid-template-columns: 1fr max-content;
+    -moz-column-gap: 3rem;
+         column-gap: 3rem;
+  }
+  .project__data {
+    padding-top: 0.8rem;
+  }
+  .footer__container {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .footer__bg {
+    padding: 3rem 0 3.5rem !important;
+  }
+  .footer__links {
+    flex-direction: row !important;
+    -moz-column-gap: 2rem !important;
+         column-gap: 2rem !important;
+  }
+  .footer__socials {
+    justify-self: flex-end !important;
+  }
+  .footer__copy {
+    margin-top: 4.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header,
+.main,
+.footer__container {
+    padding: 0 !important;
+  }
+  .home__blob {
+    width: 320px !important;
+  }
+  .home__social {
+    transform: translateX(-6rem) !important;
+  }
+  .services__container {
+    grid-template-columns: repeat(3, 238px) !important;
+  }
+  .portfolio__content {
+    -moz-column-gap: 5rem !important;
+         column-gap: 5rem !important;
+  }
+  .swiper-portfolio-icon {
+    font-size: 3.5rem !important;
+  }
+  .swiper-button-prev {
+    left: -3.5rem;
+  }
+  .swiper-button-next {
+    right: -3.5rem;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: -4.5rem;
+  }
+  .contact__form {
+    width: 460px !important;
+  }
+  .contact__inputs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/*global styles */
+/*
+    *** Universal naming convention   ***
+    class__name  : double underscore for class names
+    id_name : single underscore for id names
+    variable-name : single dash for variable names
+
+*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 0 3rem 0;
+  font-family: "Poppins", "Barlow Condensed", "Yanone Kaffeesatz", sans-serif;
+  font-size: 0.938rem;
+  background-color: hsl(250deg, 60%, 99%);
+  color: hsl(250deg, 8%, 45%);
+}
+body h1, body h2, body h3, body h4 {
+  color: hsl(250deg, 8%, 15%);
+  font-weight: 600;
+}
+body ul {
+  list-style: none;
+}
+body a {
+  text-decoration: none;
+}
+body img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding: 2rem 0 4rem;
+}
+
+.section__title {
+  font-size: 1.25rem;
+}
+
+.section__subtitle {
+  display: block;
+  font-size: 0.813rem;
+  margin-bottom: 3rem;
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center !important;
+}
+
+.container {
+  max-width: 770px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: hsl(250deg, 69%, 61%);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: hsl(250deg, 57%, 53%);
+}
+.btn .btn__icon {
+  font-size: 1.25rem;
+  margin-left: 0.5rem;
+  transition: 0.3s;
+}
+
+.btn__flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn__small {
+  padding: 0.75rem 1rem;
+}
+
+.btn__link {
+  padding: 0;
+  background-color: transparent;
+  color: hsl(250deg, 69%, 61%);
+}
+.btn__link:hover {
+  background-color: transparent;
+  color: hsl(250deg, 57%, 53%);
+}
+
+.btn__white {
+  background-color: #fff;
+  color: hsl(250deg, 69%, 61%);
+}
+.btn__white:hover {
+  background-color: #fff;
+}
+
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: hsl(250deg, 69%, 61%);
+  opacity: 0.8;
+  padding: 0 0.3rem;
+  border-radius: 0.4rem;
+  z-index: 10;
+  transition: 0.4s;
+}
+.scrollup:hover {
+  background-color: hsl(250deg, 57%, 53%);
+}
+
+.scrollup__icon {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.show-scroll {
+  bottom: 5rem;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: hsl(250deg, 12%, 90%);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(250deg, 12%, 80%);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(250deg, 8%, 65%);
+}
+
+/*sections and pages*/
+/* Header */
+.header {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: hsl(250deg, 60%, 99%);
+}
+
+.nav {
+  max-width: 968px;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo,
+.nav__toggle {
+  color: hsl(250deg, 8%, 15%);
+  font-weight: 500;
+}
+.nav__logo:hover,
+.nav__toggle:hover {
+  color: hsl(250deg, 69%, 61%);
+}
+
+.nav__toggle {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.nav__toggle:hover {
+  color: hsl(250deg, 69%, 61%);
+}
+
+.nav__btns {
+  display: flex;
+  align-items: center;
+}
+
+.change__theme {
+  font-size: 1.25rem;
+  color: hsl(250deg, 8%, 15%);
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.change__theme:hover {
+  color: hsl(250deg, 69%, 61%);
+}
+
+.nav__list {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.813rem;
+  color: hsl(250deg, 8%, 15%);
+  font-weight: 500;
+}
+.nav__link:hover {
+  color: hsl(250deg, 69%, 61%);
+}
+
+.nav__icon {
+  font-size: 1.2rem;
+}
+
+.nav__close {
+  position: absolute;
+  right: 1.3rem;
+  bottom: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: hsl(250deg, 69%, 61%);
+}
+.nav__close:hover {
+  color: hsl(250deg, 57%, 53%);
+}
+
+.active__link {
+  color: hsl(250deg, 69%, 61%);
+}
+
+.scroll__header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+  .header .nav__menu {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: hsl(250deg, 60%, 99%);
+    padding: 2rem 1.5rem 4rem;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 1.5rem 1.5rem 0 0;
+    transition: 0.3s;
+  }
+  .header .show__menu {
+    bottom: 0;
+  }
+}
+.home__container {
+  gap: 1rem;
+}
+
+.home__content {
+  grid-template-columns: 0.5fr 3fr;
+  padding-top: 3.5rem;
+  align-items: center;
+}
+
+.home__social {
+  display: grid;
+  grid-template-columns: -webkit-max-content;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+}
+
+.home__social-icon {
+  font-size: 1.25rem;
+  color: hsl(250deg, 69%, 61%);
+}
+.home__social-icon:hover {
+  color: hsl(250deg, 57%, 53%);
+}
+
+.home__blob {
+  width: 200px;
+  fill: hsl(250deg, 69%, 61%);
+}
+
+.home__blob-img {
+  width: 250px;
+}
+
+.home__data {
+  grid-column: 1/3;
+}
+
+.home__title {
+  font-size: 2rem;
+}
+
+.home__subtitle {
+  font-size: 1.125rem;
+  color: hsl(250deg, 8%, 45%);
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.home__description {
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  transition-duration: 0.2s;
+}
+.btn:hover .btn__icon {
+  transform: translateZ(0);
+}
+.btn:hover:hover .btn__icon, .btn:hover:focus .btn__icon, .btn:hover:active .btn__icon {
+  -webkit-animation-name: wobble_x;
+          animation-name: wobble_x;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.home__scroll {
+  display: none;
+}
+
+.home__scroll-btn {
+  color: hsl(250deg, 69%, 61%);
+  transition: 0.3s;
+}
+.home__scroll-btn:hover {
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  transition-duration: 0.2s;
+}
+.home__scroll-btn:hover:hover .btn__icon, .home__scroll-btn:hover:focus .btn__icon, .home__scroll-btn:hover:active .btn__icon {
+  -webkit-animation-name: wobble_y;
+          animation-name: wobble_y;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.home__scroll-mouse {
+  font-size: 2rem;
+}
+
+.home__scroll-name {
+  font-size: 0.813rem;
+  color: hsl(250deg, 8%, 15%);
+  font-weight: 500;
+  margin-right: 0.25rem;
+}
+
+.home__scroll-arrow {
+  font-size: 1.25rem;
+}
+
+.about__img {
+  width: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.about__description {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.about__info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2.5rem;
+}
+
+.about__info-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: hsl(250deg, 8%, 15%);
+}
+
+.about__info-name {
+  font-size: 0.813rem;
+}
+
+.about__info-title,
+.about__info-name {
+  display: block;
+  text-align: center;
+}
+
+.about__btn {
+  display: flex;
+  justify-content: center;
+}
+.about__btn:hover {
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  transition-duration: 0.2s;
+}
+.about__btn:hover:hover .btn__icon, .about__btn:hover:focus .btn__icon, .about__btn:hover:active .btn__icon {
+  -webkit-animation-name: wobble_y;
+          animation-name: wobble_y;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.skills__container {
+  row-gap: 0;
+}
+
+.skills__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  cursor: pointer;
+}
+
+.skills__icon,
+.skills__arrow {
+  font-size: 2rem;
+  color: hsl(250deg, 69%, 61%);
+}
+
+.skills__icon {
+  margin-right: 0.75rem;
+}
+
+.skills__title {
+  font-size: 1.125rem;
+}
+
+.skills__subtitle {
+  font-size: 0.813rem;
+  color: hsl(250deg, 8%, 65%);
+}
+
+.skills__arrow {
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+.skills__list {
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
+}
+
+.skills__titles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.skills__name {
+  font-size: 0.938rem;
+  font-weight: 500;
+}
+
+.skills__bar,
+.skills__percentage {
+  height: 5px;
+  border-radius: 0.25rem;
+}
+
+.skills__bar {
+  background-color: hsl(250deg, 92%, 85%);
+}
+
+.skills__percentage {
+  display: block;
+  background-color: hsl(250deg, 69%, 61%);
+}
+
+.subskills-1__one {
+  width: 90%;
+}
+
+.subskills-1__two {
+  width: 60%;
+}
+
+.subskills-1__three {
+  width: 50%;
+}
+
+.subskills-2__one {
+  width: 85%;
+}
+
+.subskills-2__two {
+  width: 75%;
+}
+
+.subskills-2__three {
+  width: 80%;
+}
+
+.subskills-2__four {
+  width: 50%;
+}
+
+.subskills-3__one {
+  width: 95%;
+}
+
+.subskills-3__two {
+  width: 90%;
+}
+
+.subskills-3__three {
+  width: 55%;
+}
+
+.subskills-3__four {
+  width: 60%;
+}
+
+.skills__close .skills__list {
+  height: 0;
+  overflow: hidden;
+}
+
+.skills__open .skills__list {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin-bottom: 2.5rem;
+}
+
+.skills__open .skills__arrow {
+  transform: rotate(-180deg);
+}
+
+.qctn__tabs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.qctn__btn {
+  font-size: 1.125rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.qctn__btn:hover {
+  color: hsl(250deg, 69%, 61%);
+}
+
+.qctn__icon {
+  font-size: 1.8rem;
+  margin-right: 0.25rem;
+}
+
+.qctn__active {
+  color: hsl(250deg, 69%, 61%);
+}
+
+.qctn__data {
+  display: grid;
+  grid-template-columns: 1fr -webkit-max-content 1fr;
+  grid-template-columns: 1fr max-content 1fr;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
+.qctn__title {
+  font-size: 0.938rem;
+  font-weight: 500;
+}
+
+.qctn__subtitle {
+  display: inline-flex;
+  font-size: 0.813rem;
+  margin-bottom: 1rem;
+}
+
+.qctn__calendar {
+  font-size: 0.75rem;
+  color: hsl(250deg, 8%, 65%);
+}
+
+.qctn__rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: hsl(250deg, 69%, 61%);
+  border-radius: 50%;
+}
+
+.qctn__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: hsl(250deg, 69%, 61%);
+  transform: translate(6px, -7px);
+}
+
+.qctn__section [data-content] {
+  display: none;
+}
+
+.qctn__active[data-content] {
+  display: block;
+}
+
+.services__container {
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.services__content {
+  position: relative;
+  background-color: #fff;
+  padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+.services__content:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.services__icon {
+  display: block;
+  font-size: 1.5rem;
+  color: hsl(250deg, 69%, 61%);
+  margin-bottom: 1rem;
+}
+
+.services__title {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.services__btn {
+  cursor: pointer;
+  font-size: 0.813rem;
+}
+.services__btn:hover {
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  transition-duration: 0.2s;
+}
+.services__btn:hover .btn__icon {
+  transform: translateZ(0);
+}
+.services__btn:hover:hover .btn__icon, .services__btn:hover:focus .btn__icon, .services__btn:hover:active .btn__icon {
+  -webkit-animation-name: wobble_x;
+          animation-name: wobble_x;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.services__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.services__modal-content {
+  position: relative;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.services__modal-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.services__modal-services {
+  row-gap: 1rem;
+}
+
+.services__modal-service {
+  display: flex;
+}
+
+.services__modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: hsl(250deg, 69%, 61%);
+}
+
+.services__modal-icon {
+  color: hsl(250deg, 69%, 61%);
+  margin-right: 0.25rem;
+}
+
+.active__modal {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.portfolio__content {
+  padding: 0 1.5rem;
+}
+
+.portfolio__image {
+  width: 265px;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+
+.portfolio__title {
+  font-size: 1.125rem;
+  margin-bottom: 0.25rem;
+}
+
+.portfolio__description {
+  margin-bottom: 0.75rem;
+}
+
+.portfolio__btn:hover {
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  transition-duration: 0.2s;
+}
+.portfolio__btn:hover .btn__icon {
+  transform: translateZ(0);
+}
+.portfolio__btn:hover:hover .btn__icon, .portfolio__btn:hover:focus .btn__icon, .portfolio__btn:hover:active .btn__icon {
+  -webkit-animation-name: wobble_x;
+          animation-name: wobble_x;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: "";
+}
+
+.swiper-portfolio-icon {
+  font-size: 2rem;
+  color: hsl(250deg, 69%, 61%);
+}
+
+.swiper-button-next {
+  right: -0.5rem;
+}
+
+.swiper-button-prev {
+  left: -0.5rem;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: hsl(250deg, 69%, 61%);
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet {
+  outline: none;
+}
+
+.project {
+  text-align: center;
+}
+
+.project__bg {
+  background-color: hsl(250deg, 69%, 61%);
+  padding-top: 3rem;
+}
+
+.project__title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.project__description {
+  margin-bottom: 1.5rem;
+}
+
+.project__title,
+.project__description {
+  color: #fff;
+}
+
+.project__img {
+  width: 232px;
+  justify-self: center;
+}
+
+.testimonial__data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.testimonial__header {
+  display: flex;
+}
+
+.testimonial__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+.testimonial__name {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.testimonial__position {
+  font-size: 0.813rem;
+  color: hsl(250deg, 8%, 65%);
+}
+
+.testimonial__icon-star {
+  color: hsl(250deg, 69%, 61%);
+}
+
+.testimonial__description {
+  margin-bottom: 2.5rem;
+}
+
+.swiper-pagination-testimonial {
+  bottom: 0;
+}
+
+.contact__container {
+  row-gap: 3rem;
+}
+
+.contact__information {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.contact__title {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.contact__subtitle {
+  font-size: 0.813rem;
+  color: hsl(250deg, 8%, 65%);
+}
+
+.contact__icon {
+  font-size: 2rem;
+  color: hsl(250deg, 69%, 61%);
+  margin-right: 0.75rem;
+}
+
+.contact__content {
+  background-color: hsl(250deg, 70%, 96%);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem 0.25rem;
+}
+
+.contact__label {
+  font-size: 0.813rem;
+  color: hsl(250deg, 8%, 15%);
+}
+
+.contact__input {
+  width: 100%;
+  background-color: hsl(250deg, 70%, 96%);
+  color: hsl(250deg, 8%, 45%);
+  font-family: "Poppins", "Barlow Condensed", "Yanone Kaffeesatz", sans-serif;
+  font-size: 0.938rem;
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+.footer {
+  padding-top: 2rem;
+}
+
+.footer__bg {
+  background-color: hsl(250deg, 69%, 61%);
+  padding: 2rem 0 3rem;
+}
+
+.footer__container {
+  row-gap: 3.5rem;
+}
+
+.footer__title {
+  font-size: 1.125rem;
+  margin-bottom: 0.25rem;
+}
+
+.footer__subtitle {
+  font-size: 0.813rem;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.footer__link:hover {
+  color: hsl(250deg, 92%, 85%);
+}
+
+.footer__social {
+  font-size: 1.25rem;
+  margin-right: 1.5rem;
+}
+.footer__social:hover {
+  color: hsl(250deg, 92%, 85%);
+}
+
+.footer__copy {
+  font-size: 0.813rem;
+  text-align: center;
+  color: hsl(250deg, 8%, 65%);
+  margin-top: 3rem;
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social {
+  color: #fff;
+}
+
+body.dark-theme {
+  background-color: hsl(250deg, 30%, 8%) !important;
+  color: hsl(250deg, 8%, 75%);
+}
+body.dark-theme .project__container, body.dark-theme .footer__bg, body.dark-theme .services__content, body.dark-theme .services__modal-content {
+  background-color: hsl(250deg, 29%, 16%);
+}
+body.dark-theme .project__bg {
+  background-color: hsl(250deg, 30%, 8%);
+}
+body.dark-theme h1, body.dark-theme h2, body.dark-theme h3, body.dark-theme h4, body.dark-theme .about__info-title, body.dark-theme .home__scroll-name {
+  color: hsl(250deg, 8%, 95%);
+}
+body.dark-theme .services__title {
+  color: hsl(250deg, 8%, 95%) !important;
+}

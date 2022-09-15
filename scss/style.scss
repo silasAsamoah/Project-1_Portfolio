@@ -1,0 +1,56 @@
+/*=====FONTS======*/
+/*online*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/*local*/
+@import "../asserts/fonts/barlowCondensed-webfont/_font";
+@import "../asserts/fonts/YanoneKaffeesatz-webfont/_font";
+
+/*==================*/
+
+/*=====================*/
+/*variables, mixins, media queries, functions and all*/
+@import "vars-mixins-queries";
+
+
+/*global styles */
+@import "global_styles";
+
+/*sections and pages*/
+@import "header";
+@import "home";
+@import "about";
+@import "skills";
+@import "qualification";
+@import "services";
+@import "portfolio";
+@import "project";
+@import "testimonial";
+@import "contact";
+@import "footer";
+
+
+//========DARK THEME VARIABLES
+body.dark-theme{
+	background-color: $first-color-second-dt !important;
+	color: $text-color-dt;
+
+	// .project__container{
+	// 	background-color: $container-color-dt !important;
+	// }
+	.project__container,.footer__bg,.services__content,.services__modal-content{
+		background-color: $container-color-dt;
+		}
+	
+	.project__bg{
+		background-color: $first-color-second-dt;
+	}
+
+	h1,h2,h3,h4,.about__info-title,.home__scroll-name{
+        color: $title-color-dt ;
+	}
+
+	.services__title{
+		color: $title-color-dt !important;
+	}
+}
