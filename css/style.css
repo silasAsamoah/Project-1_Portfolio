@@ -467,7 +467,7 @@
     background: none !important;
   }
   .project__container {
-    background-color: hsl(250deg, 69%, 61%);
+    background-color: hsl(17deg, 69%, 61%);
     border-radius: 1rem;
     padding: 3rem 2.5rem 0 !important;
     grid-template-columns: 1fr -webkit-max-content;
@@ -556,11 +556,11 @@ body {
   margin: 0 0 3rem 0;
   font-family: "Poppins", "Barlow Condensed", "Yanone Kaffeesatz", sans-serif;
   font-size: 0.938rem;
-  background-color: hsl(250deg, 60%, 99%);
-  color: hsl(250deg, 8%, 45%);
+  background-color: hsl(17deg, 60%, 99%);
+  color: hsl(17deg, 8%, 45%);
 }
 body h1, body h2, body h3, body h4 {
-  color: hsl(250deg, 8%, 15%);
+  color: hsl(17deg, 8%, 15%);
   font-weight: 600;
 }
 body ul {
@@ -606,14 +606,14 @@ body img {
 
 .btn {
   display: inline-block;
-  background-color: hsl(250deg, 69%, 61%);
+  background-color: hsl(17deg, 69%, 61%);
   color: #fff;
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: 500;
 }
 .btn:hover {
-  background-color: hsl(250deg, 57%, 53%);
+  background-color: hsl(17deg, 57%, 53%);
 }
 .btn .btn__icon {
   font-size: 1.25rem;
@@ -633,16 +633,16 @@ body img {
 .btn__link {
   padding: 0;
   background-color: transparent;
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 .btn__link:hover {
   background-color: transparent;
-  color: hsl(250deg, 57%, 53%);
+  color: hsl(17deg, 57%, 53%);
 }
 
 .btn__white {
   background-color: #fff;
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 .btn__white:hover {
   background-color: #fff;
@@ -652,7 +652,7 @@ body img {
   position: fixed;
   right: 1rem;
   bottom: -20%;
-  background-color: hsl(250deg, 69%, 61%);
+  background-color: hsl(17deg, 69%, 61%);
   opacity: 0.8;
   padding: 0 0.3rem;
   border-radius: 0.4rem;
@@ -660,7 +660,7 @@ body img {
   transition: 0.4s;
 }
 .scrollup:hover {
-  background-color: hsl(250deg, 57%, 53%);
+  background-color: hsl(17deg, 57%, 53%);
 }
 
 .scrollup__icon {
@@ -674,15 +674,15 @@ body img {
 
 ::-webkit-scrollbar {
   width: 0.6rem;
-  background-color: hsl(250deg, 12%, 90%);
+  background-color: hsl(17deg, 12%, 90%);
   border-radius: 0.5rem;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: hsl(250deg, 12%, 80%);
+  background-color: hsl(17deg, 12%, 80%);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(250deg, 8%, 65%);
+  background-color: hsl(17deg, 8%, 65%);
 }
 
 /*sections and pages*/
@@ -693,7 +693,7 @@ body img {
   bottom: 0;
   left: 0;
   z-index: 100;
-  background-color: hsl(250deg, 60%, 99%);
+  background-color: hsl(17deg, 60%, 99%);
 }
 
 .nav {
@@ -706,12 +706,12 @@ body img {
 
 .nav__logo,
 .nav__toggle {
-  color: hsl(250deg, 8%, 15%);
+  color: hsl(17deg, 8%, 15%);
   font-weight: 500;
 }
 .nav__logo:hover,
 .nav__toggle:hover {
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 
 .nav__toggle {
@@ -719,7 +719,7 @@ body img {
   cursor: pointer;
 }
 .nav__toggle:hover {
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 
 .nav__btns {
@@ -729,12 +729,12 @@ body img {
 
 .change__theme {
   font-size: 1.25rem;
-  color: hsl(250deg, 8%, 15%);
+  color: hsl(17deg, 8%, 15%);
   margin-right: 1rem;
   cursor: pointer;
 }
 .change__theme:hover {
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 
 .nav__list {
@@ -747,11 +747,11 @@ body img {
   flex-direction: column;
   align-items: center;
   font-size: 0.813rem;
-  color: hsl(250deg, 8%, 15%);
+  color: hsl(17deg, 8%, 15%);
   font-weight: 500;
 }
 .nav__link:hover {
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 
 .nav__icon {
@@ -764,14 +764,14 @@ body img {
   bottom: 0.5rem;
   font-size: 1.5rem;
   cursor: pointer;
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 .nav__close:hover {
-  color: hsl(250deg, 57%, 53%);
+  color: hsl(17deg, 57%, 53%);
 }
 
 .active__link {
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 
 .scroll__header {
@@ -784,7 +784,7 @@ body img {
     bottom: -100%;
     left: 0;
     width: 100%;
-    background-color: hsl(250deg, 60%, 99%);
+    background-color: hsl(17deg, 60%, 99%);
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
@@ -813,15 +813,15 @@ body img {
 
 .home__social-icon {
   font-size: 1.25rem;
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 .home__social-icon:hover {
-  color: hsl(250deg, 57%, 53%);
+  color: hsl(17deg, 57%, 53%);
 }
 
 .home__blob {
   width: 200px;
-  fill: hsl(250deg, 69%, 61%);
+  fill: hsl(17deg, 69%, 61%);
 }
 
 .home__blob-img {
@@ -838,7 +838,7 @@ body img {
 
 .home__subtitle {
   font-size: 1.125rem;
-  color: hsl(250deg, 8%, 45%);
+  color: hsl(17deg, 8%, 45%);
   font-weight: 500;
   margin-bottom: 0.75rem;
 }
@@ -872,7 +872,7 @@ body img {
 }
 
 .home__scroll-btn {
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
   transition: 0.3s;
 }
 .home__scroll-btn:hover {
@@ -898,7 +898,7 @@ body img {
 
 .home__scroll-name {
   font-size: 0.813rem;
-  color: hsl(250deg, 8%, 15%);
+  color: hsl(17deg, 8%, 15%);
   font-weight: 500;
   margin-right: 0.25rem;
 }
@@ -928,7 +928,7 @@ body img {
 .about__info-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: hsl(250deg, 8%, 15%);
+  color: hsl(17deg, 8%, 15%);
 }
 
 .about__info-name {
@@ -976,7 +976,7 @@ body img {
 .skills__icon,
 .skills__arrow {
   font-size: 2rem;
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 
 .skills__icon {
@@ -989,7 +989,7 @@ body img {
 
 .skills__subtitle {
   font-size: 0.813rem;
-  color: hsl(250deg, 8%, 65%);
+  color: hsl(17deg, 8%, 65%);
 }
 
 .skills__arrow {
@@ -1020,12 +1020,12 @@ body img {
 }
 
 .skills__bar {
-  background-color: hsl(250deg, 92%, 85%);
+  background-color: hsl(17deg, 92%, 85%);
 }
 
 .skills__percentage {
   display: block;
-  background-color: hsl(250deg, 69%, 61%);
+  background-color: hsl(17deg, 69%, 61%);
 }
 
 .subskills-1__one {
@@ -1100,7 +1100,7 @@ body img {
   cursor: pointer;
 }
 .qctn__btn:hover {
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 
 .qctn__icon {
@@ -1109,7 +1109,7 @@ body img {
 }
 
 .qctn__active {
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 
 .qctn__data {
@@ -1133,14 +1133,14 @@ body img {
 
 .qctn__calendar {
   font-size: 0.75rem;
-  color: hsl(250deg, 8%, 65%);
+  color: hsl(17deg, 8%, 65%);
 }
 
 .qctn__rounder {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: hsl(250deg, 69%, 61%);
+  background-color: hsl(17deg, 69%, 61%);
   border-radius: 50%;
 }
 
@@ -1148,7 +1148,7 @@ body img {
   display: block;
   width: 1px;
   height: 100%;
-  background-color: hsl(250deg, 69%, 61%);
+  background-color: hsl(17deg, 69%, 61%);
   transform: translate(6px, -7px);
 }
 
@@ -1180,7 +1180,7 @@ body img {
 .services__icon {
   display: block;
   font-size: 1.5rem;
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
   margin-bottom: 1rem;
 }
 
@@ -1258,11 +1258,11 @@ body img {
   right: 1rem;
   font-size: 1.5rem;
   cursor: pointer;
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 
 .services__modal-icon {
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
   margin-right: 0.25rem;
 }
 
@@ -1317,7 +1317,7 @@ body img {
 
 .swiper-portfolio-icon {
   font-size: 2rem;
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 
 .swiper-button-next {
@@ -1333,7 +1333,7 @@ body img {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: hsl(250deg, 69%, 61%);
+  background-color: hsl(17deg, 69%, 61%);
 }
 
 .swiper-button-prev,
@@ -1347,7 +1347,7 @@ body img {
 }
 
 .project__bg {
-  background-color: hsl(250deg, 69%, 61%);
+  background-color: hsl(17deg, 69%, 61%);
   padding-top: 3rem;
 }
 
@@ -1394,11 +1394,11 @@ body img {
 
 .testimonial__position {
   font-size: 0.813rem;
-  color: hsl(250deg, 8%, 65%);
+  color: hsl(17deg, 8%, 65%);
 }
 
 .testimonial__icon-star {
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
 }
 
 .testimonial__description {
@@ -1425,30 +1425,30 @@ body img {
 
 .contact__subtitle {
   font-size: 0.813rem;
-  color: hsl(250deg, 8%, 65%);
+  color: hsl(17deg, 8%, 65%);
 }
 
 .contact__icon {
   font-size: 2rem;
-  color: hsl(250deg, 69%, 61%);
+  color: hsl(17deg, 69%, 61%);
   margin-right: 0.75rem;
 }
 
 .contact__content {
-  background-color: hsl(250deg, 70%, 96%);
+  background-color: hsl(17deg, 70%, 96%);
   border-radius: 0.5rem;
   padding: 0.75rem 1rem 0.25rem;
 }
 
 .contact__label {
   font-size: 0.813rem;
-  color: hsl(250deg, 8%, 15%);
+  color: hsl(17deg, 8%, 15%);
 }
 
 .contact__input {
   width: 100%;
-  background-color: hsl(250deg, 70%, 96%);
-  color: hsl(250deg, 8%, 45%);
+  background-color: hsl(17deg, 70%, 96%);
+  color: hsl(17deg, 8%, 45%);
   font-family: "Poppins", "Barlow Condensed", "Yanone Kaffeesatz", sans-serif;
   font-size: 0.938rem;
   border: none;
@@ -1461,7 +1461,7 @@ body img {
 }
 
 .footer__bg {
-  background-color: hsl(250deg, 69%, 61%);
+  background-color: hsl(17deg, 69%, 61%);
   padding: 2rem 0 3rem;
 }
 
@@ -1485,7 +1485,7 @@ body img {
 }
 
 .footer__link:hover {
-  color: hsl(250deg, 92%, 85%);
+  color: hsl(17deg, 92%, 85%);
 }
 
 .footer__social {
@@ -1493,13 +1493,13 @@ body img {
   margin-right: 1.5rem;
 }
 .footer__social:hover {
-  color: hsl(250deg, 92%, 85%);
+  color: hsl(17deg, 92%, 85%);
 }
 
 .footer__copy {
   font-size: 0.813rem;
   text-align: center;
-  color: hsl(250deg, 8%, 65%);
+  color: hsl(17deg, 8%, 65%);
   margin-top: 3rem;
 }
 
@@ -1511,18 +1511,18 @@ body img {
 }
 
 body.dark-theme {
-  background-color: hsl(250deg, 30%, 8%) !important;
-  color: hsl(250deg, 8%, 75%);
+  background-color: hsl(17deg, 30%, 8%) !important;
+  color: hsl(17deg, 8%, 75%);
 }
 body.dark-theme .project__container, body.dark-theme .footer__bg, body.dark-theme .services__content, body.dark-theme .services__modal-content {
-  background-color: hsl(250deg, 29%, 16%);
+  background-color: hsl(17deg, 29%, 16%);
 }
 body.dark-theme .project__bg {
-  background-color: hsl(250deg, 30%, 8%);
+  background-color: hsl(17deg, 30%, 8%);
 }
 body.dark-theme h1, body.dark-theme h2, body.dark-theme h3, body.dark-theme h4, body.dark-theme .about__info-title, body.dark-theme .home__scroll-name {
-  color: hsl(250deg, 8%, 95%);
+  color: hsl(17deg, 8%, 95%);
 }
 body.dark-theme .services__title {
-  color: hsl(250deg, 8%, 95%) !important;
+  color: hsl(17deg, 8%, 95%) !important;
 }
